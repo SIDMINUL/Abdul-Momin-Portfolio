@@ -3,205 +3,98 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Abdul Momin Siddiqui — Data Analyst, ML and AI portfolio.">
-  <title>Abdul Momin Siddiqui | Data & ML Engineer</title>
+  <meta name="description" content="Abdul Momin Siddiqui — Data Analyst and ML enthusiast building intelligent products.">
+  <title>Abdul Momin Siddiqui | Data & ML</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <a href="#" class="logo">AMS<span>.</span></a>
-    <nav>
-      <a href="#work">Work</a>
-      <a href="#experience">Experience</a>
+  <header class="site-header">
+    <a href="#home" class="brand"><span>{</span>AS<span>}</span><strong>Abdul Momin Siddiqui</strong></a>
+    <nav aria-label="Primary navigation">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
       <a href="#skills">Skills</a>
+      <a href="#work">Projects</a>
+      <a href="#experience">Experience</a>
       <a href="#contact">Contact</a>
     </nav>
-    <a class="navbtn" href="https://github.com/SIDMINUL" target="_blank" rel="noopener">GitHub ↗</a>
+    <a class="header-github" href="https://github.com/SIDMINUL" target="_blank" rel="noopener" aria-label="GitHub">↗</a>
   </header>
 
   <main>
-    <section class="hero">
+    <section id="home" class="hero">
       <div class="hero-copy">
-        <small>● OPEN TO OPPORTUNITIES</small>
-        <h1>Turning data into <em>intelligent products.</em></h1>
-        <p>
-          I'm Abdul Momin Siddiqui, a B.Tech ECE student at IIIT Ranchi building
-          end-to-end systems across data analytics, machine learning, NLP and voice AI.
-        </p>
+        <div class="availability"><i></i> OPEN TO OPPORTUNITIES</div>
+        <h1>Turning data<br>into <em>intelligent<br>products.</em></h1>
+        <p>Data Analyst and ML enthusiast passionate about building impactful solutions that solve real-world problems.</p>
 
         <div class="actions">
-          <a class="btn primary" href="#work">Explore my work ↓</a>
-          <a class="btn" href="mailto:momimabdul605@gmail.com">Let's talk ↗</a>
+          <a class="btn primary" href="#work">View My Work <span>↗</span></a>
+          <a class="btn" href="mailto:momimabdul605@gmail.com">Let's Talk <span>↗</span></a>
         </div>
 
-        <label>IIIT Ranchi · 2023–2027 | CGPA 8.68/10 | Lucknow, India</label>
+        <div class="socials">
+          <a href="https://github.com/SIDMINUL" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+          <a href="https://www.linkedin.com/in/abdul-momin-siddiqui-903147225" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+          <a href="mailto:momimabdul605@gmail.com" aria-label="Email">@</a>
+        </div>
       </div>
 
       <div class="hero-visual">
         <div class="profile-card">
-          <img
-            src="prof_momin_photo%20(1).png"
-            alt="Abdul Momin Siddiqui"
-            class="profile-photo"
-          >
+          <div class="portrait-glow"></div>
+          <div class="portrait-ring"></div>
+          <img src="prof_momin_photo%20(1).png" alt="Abdul Momin Siddiqui" class="profile-photo">
           <div class="profile-caption">
             <span>DATA · ML · AI</span>
             <b>BUILD / DEPLOY / ANALYZE</b>
           </div>
         </div>
-
-        <div class="terminal">
-          <small>ENGINEERING PIPELINE</small>
-          <pre>01  pipeline = {
-02    "data": "clean",
-03    "model": "useful",
-04    "insights": "actionable",
-05    "deployment": "live"
-06  }</pre>
-          <div class="termstats">
-            <b>211K+</b> records analyzed &nbsp;·&nbsp; <b>5</b> featured projects
-          </div>
-        </div>
       </div>
     </section>
 
-    <div class="ticker">
-      PYTHON　 SQL　 POWER BI　 SCIKIT-LEARN　 STREAMLIT　 FLASK　 FASTAPI　 MONGODB
-    </div>
+    <section class="stats" aria-label="Portfolio highlights">
+      <div class="stat"><span class="stat-icon">&lt;/&gt;</span><strong>5+</strong><p>Projects Completed</p></div>
+      <div class="stat"><span class="stat-icon">◎</span><strong>211K+</strong><p>Records Analyzed</p></div>
+      <div class="stat"><span class="stat-icon">▥</span><strong>5K+</strong><p>Customer Interactions<br>Analyzed</p></div>
+      <div class="stat"><span class="stat-icon">↗</span><strong>3+</strong><p>Deployments</p></div>
+    </section>
+
+    <section id="about" class="about-grid section-tight">
+      <article class="panel about-panel">
+        <div class="panel-heading"><span>♙</span><h2>ABOUT ME</h2></div>
+        <p>I am an Electronics & Communication Engineering student with a strong passion for Data Analytics, Machine Learning and building impactful solutions.</p>
+        <p>I enjoy transforming raw data into meaningful insights and deploying end-to-end solutions that solve real-world problems.</p>
+        <div class="contact-mini"><span>⌖</span> Lucknow, Uttar Pradesh, India</div>
+        <div class="contact-mini"><span>@</span> momimabdul605@gmail.com</div>
+      </article>
+
+      <article id="skills" class="panel skills-panel">
+        <div class="panel-heading"><span>⚙</span><h2>TECHNICAL SKILLS</h2></div>
+        <div class="skill-row"><b>⌘</b><span>Languages</span><div><i>Python</i><i>SQL</i><i>R</i></div></div>
+        <div class="skill-row"><b>▥</b><span>Data Analysis</span><div><i>Pandas</i><i>NumPy</i><i>Excel</i></div></div>
+        <div class="skill-row"><b>⌁</b><span>Visualization</span><div><i>Power BI</i><i>Tableau</i><i>Matplotlib</i><i>Seaborn</i></div></div>
+        <div class="skill-row"><b>◉</b><span>ML / NLP</span><div><i>Scikit-learn</i><i>TensorFlow</i><i>TF-IDF</i><i>K-Means</i><i>PCA</i></div></div>
+        <div class="skill-row"><b>◎</b><span>Databases</span><div><i>MySQL</i><i>MongoDB</i><i>Databricks</i></div></div>
+        <div class="skill-row"><b>☁</b><span>Tools & Cloud</span><div><i>Git</i><i>Docker</i><i>Azure</i><i>AWS</i><i>Streamlit</i><i>Flask</i></div></div>
+      </article>
+    </section>
 
     <section id="work" class="section">
-      <small>02 / SELECTED WORK</small>
+      <small>03 / SELECTED WORK</small>
       <h2>Projects that go beyond<br><em>the notebook.</em></h2>
-
       <div class="projects">
-        <article>
-          <b>01</b>
-          <div>
-            <small>VOICE AI · DEPLOYED</small>
-            <h3>Emotion Voice Assistant</h3>
-            <p>
-              Flask-based voice assistant combining speech-to-text, acoustic emotion
-              analysis, response policies and context-aware response generation.
-            </p>
-            <label>Python · Flask · NumPy · SoundFile · JavaScript</label>
-            <p class="project-links">
-              <a href="https://emotion-voice-assistant.onrender.com" target="_blank" rel="noopener">Live demo ↗</a>
-              <a href="https://github.com/SIDMINUL/Emotion-Voice-Assistant" target="_blank" rel="noopener">Source ↗</a>
-            </p>
-          </div>
-        </article>
-
-        <article>
-          <b>02</b>
-          <div>
-            <small>DATA SCIENCE · DEPLOYED</small>
-            <h3>GreedGauge</h3>
-            <p>
-              Crypto trading analytics dashboard studying Bitcoin market sentiment
-              and Hyperliquid trader performance.
-            </p>
-            <label>Python · Streamlit · K-Means · PCA · SciPy</label>
-            <p class="project-links">
-              <a href="https://greedgauge0808.streamlit.app/" target="_blank" rel="noopener">Live dashboard ↗</a>
-              <a href="https://github.com/SIDMINUL/GreedGauge" target="_blank" rel="noopener">Source ↗</a>
-            </p>
-          </div>
-        </article>
-
-        <article>
-          <b>03</b>
-          <div>
-            <small>BI · ANALYTICS</small>
-            <h3>Customer Service Quality Dashboard</h3>
-            <p>
-              Power BI workflow for 5,000 service interactions covering quality,
-              CSAT, FCR, escalation, response time and compliance.
-            </p>
-            <label>Python · SQL · Excel · Power BI</label>
-            <p class="project-links">
-              <a href="https://github.com/SIDMINUL/Customer-Service-Quality-Dashboard" target="_blank" rel="noopener">View project ↗</a>
-            </p>
-          </div>
-        </article>
-
-        <article>
-          <b>04</b>
-          <div>
-            <small>ADAPTIVE AI · DEPLOYED</small>
-            <h3>Adaptive Diagnostic Recognition</h3>
-            <p>
-              Adaptive quiz engine using IRT-inspired ability updates, MongoDB
-              persistence and Groq-powered personalized study planning.
-            </p>
-            <label>FastAPI · MongoDB · Groq · IRT</label>
-            <p class="project-links">
-              <a href="https://github.com/SIDMINUL/Adaptive_Diagnostic_Recognition" target="_blank" rel="noopener">Source ↗</a>
-            </p>
-          </div>
-        </article>
-
-        <article>
-          <b>05</b>
-          <div>
-            <small>RECOMMENDER SYSTEM</small>
-            <h3>Movie & Music Recommender</h3>
-            <p>
-              Content-based recommendation system using TF-IDF and nearest-neighbor
-              similarity across movie and music data.
-            </p>
-            <label>Python · Streamlit · TF-IDF · Scikit-learn</label>
-            <p class="project-links">
-              <a href="https://github.com/SIDMINUL/Movie-Music-Recommender" target="_blank" rel="noopener">Source ↗</a>
-            </p>
-          </div>
-        </article>
+        <article><b>01</b><div><small>VOICE AI · DEPLOYED</small><h3>Emotion Voice Assistant</h3><p>Flask-based voice assistant combining speech-to-text, acoustic emotion analysis, response policies and context-aware response generation.</p><label>Python · Flask · NumPy · SoundFile · JavaScript</label><p class="project-links"><a href="https://emotion-voice-assistant.onrender.com" target="_blank" rel="noopener">Live demo ↗</a><a href="https://github.com/SIDMINUL/Emotion-Voice-Assistant" target="_blank" rel="noopener">Source ↗</a></p></div></article>
+        <article><b>02</b><div><small>DATA SCIENCE · DEPLOYED</small><h3>GreedGauge</h3><p>Crypto trading analytics dashboard studying Bitcoin market sentiment and Hyperliquid trader performance.</p><label>Python · Streamlit · K-Means · PCA · SciPy</label><p class="project-links"><a href="https://greedgauge0808.streamlit.app/" target="_blank" rel="noopener">Live dashboard ↗</a><a href="https://github.com/SIDMINUL/GreedGauge" target="_blank" rel="noopener">Source ↗</a></p></div></article>
+        <article><b>03</b><div><small>BI · ANALYTICS</small><h3>Customer Service Quality Dashboard</h3><p>Power BI workflow for 5,000 service interactions covering quality, CSAT, FCR, escalation, response time and compliance.</p><label>Python · SQL · Excel · Power BI</label><p class="project-links"><a href="https://github.com/SIDMINUL/Customer-Service-Quality-Dashboard" target="_blank" rel="noopener">View project ↗</a></p></div></article>
+        <article><b>04</b><div><small>ADAPTIVE AI · DEPLOYED</small><h3>Adaptive Diagnostic Recognition</h3><p>Adaptive quiz engine using IRT-inspired ability updates, MongoDB persistence and Groq-powered personalized study planning.</p><label>FastAPI · MongoDB · Groq · IRT</label><p class="project-links"><a href="https://github.com/SIDMINUL/Adaptive_Diagnostic_Recognition" target="_blank" rel="noopener">Source ↗</a></p></div></article>
+        <article><b>05</b><div><small>RECOMMENDER SYSTEM</small><h3>Movie & Music Recommender</h3><p>Content-based recommendation system using TF-IDF and nearest-neighbor similarity across movie and music data.</p><label>Python · Streamlit · TF-IDF · Scikit-learn</label><p class="project-links"><a href="https://github.com/SIDMINUL/Movie-Music-Recommender" target="_blank" rel="noopener">Source ↗</a></p></div></article>
       </div>
     </section>
 
     <section id="experience" class="section split">
-      <div>
-        <small>03 / EXPERIENCE</small>
-        <h2>Applied AI,<br><em>research mindset.</em></h2>
-      </div>
-      <div class="timeline">
-        <small>JAN 2026 — MAR 2026</small>
-        <h3>Research Intern — AI Sentiment & Emotion Pipeline</h3>
-        <p>SoftNerve · Remote</p>
-        <ul>
-          <li>Developed an end-to-end pipeline for speech sentiment and emotion evaluation.</li>
-          <li>Analyzed pitch, energy, tempo and pause-ratio data to identify interaction patterns.</li>
-          <li>Designed evaluation mechanisms to improve response quality and consistency.</li>
-          <li>Integrated speech recognition, NLP and text-to-speech components.</li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="skills" class="section">
-      <small>04 / TOOLKIT</small>
-      <h2>The stack behind<br><em>the work.</em></h2>
-
-      <div class="skills">
-        <div>
-          <b>01 / DATA</b>
-          <h3>Analytics</h3>
-          <p>Python · SQL · Pandas · NumPy · Excel · Statistical Analysis · Feature Engineering</p>
-        </div>
-        <div>
-          <b>02 / ML</b>
-          <h3>Machine Learning</h3>
-          <p>Scikit-learn · K-Means · PCA · TF-IDF · Classification · Predictive Modeling</p>
-        </div>
-        <div>
-          <b>03 / BI</b>
-          <h3>Visualization</h3>
-          <p>Power BI · Tableau · Matplotlib · Seaborn · KPI Design · Root-Cause Analysis</p>
-        </div>
-        <div>
-          <b>04 / BUILD</b>
-          <h3>Engineering</h3>
-          <p>Flask · FastAPI · Streamlit · MongoDB · MySQL · Git/GitHub · Docker · Cloud</p>
-        </div>
-      </div>
+      <div><small>04 / EXPERIENCE</small><h2>Applied AI,<br><em>research mindset.</em></h2></div>
+      <div class="timeline"><small>JAN 2026 — MAR 2026</small><h3>Research Intern — AI Sentiment & Emotion Pipeline</h3><p>SoftNerve · Remote</p><ul><li>Developed an end-to-end pipeline for speech sentiment and emotion evaluation.</li><li>Analyzed pitch, energy, tempo and pause-ratio data to identify interaction patterns.</li><li>Designed evaluation mechanisms to improve response quality and consistency.</li><li>Integrated speech recognition, NLP and text-to-speech components.</li></ul></div>
     </section>
 
     <section id="contact" class="contact">
@@ -209,15 +102,11 @@
       <h2>Have a problem worth<br><em>solving?</em></h2>
       <p>Open to data analytics, ML, AI and software engineering opportunities.</p>
       <a class="email" href="mailto:momimabdul605@gmail.com">momimabdul605@gmail.com ↗</a>
-      <div>
-        <a href="https://github.com/SIDMINUL" target="_blank" rel="noopener">GitHub</a>
-        <a href="https://www.linkedin.com/in/abdul-momin-siddiqui-903147225" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="tel:+918177013245">+91 81770 13245</a>
-      </div>
+      <div><a href="https://github.com/SIDMINUL" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/abdul-momin-siddiqui-903147225" target="_blank" rel="noopener">LinkedIn</a><a href="tel:+918177013245">+91 81770 13245</a></div>
     </section>
   </main>
 
-  <footer>© 2026 Abdul Momin Siddiqui</footer>
+  <footer>© 2026 Abdul Momin Siddiqui · Data · ML · AI</footer>
   <script src="script.js"></script>
 </body>
 </html>
