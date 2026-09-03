@@ -5,7 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Abdul Momin Siddiqui — Data Analyst and ML enthusiast building intelligent products.">
   <title>Abdul Momin Siddiqui | Data & ML</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=4">
+  <style>
+    .profile-card { position: relative; }
+    .profile-photo {
+      width: 305px !important;
+      height: 305px !important;
+      aspect-ratio: 1 / 1;
+      display: block;
+      border-radius: 50% !important;
+      object-fit: cover !important;
+      object-position: 50% 8% !important;
+      clip-path: circle(50% at 50% 50%);
+      border: 1px solid rgba(200,255,47,.55) !important;
+      box-shadow: 0 0 0 8px rgba(200,255,47,.025), 0 25px 70px rgba(0,0,0,.55) !important;
+      mix-blend-mode: multiply;
+    }
+    @media (max-width: 1000px) {
+      .profile-photo { width: 275px !important; height: 275px !important; }
+    }
+    @media (max-width: 520px) {
+      .profile-photo { width: 225px !important; height: 225px !important; }
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -27,12 +49,10 @@
         <div class="availability"><i></i> OPEN TO OPPORTUNITIES</div>
         <h1>Turning data<br>into <em>intelligent<br>products.</em></h1>
         <p>Data Analyst and ML enthusiast passionate about building impactful solutions that solve real-world problems.</p>
-
         <div class="actions">
           <a class="btn primary" href="#work">View My Work <span>↗</span></a>
           <a class="btn" href="mailto:momimabdul605@gmail.com">Let's Talk <span>↗</span></a>
         </div>
-
         <div class="socials">
           <a href="https://github.com/SIDMINUL" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
           <a href="https://www.linkedin.com/in/abdul-momin-siddiqui-903147225" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
@@ -44,7 +64,7 @@
         <div class="profile-card">
           <div class="portrait-glow"></div>
           <div class="portrait-ring"></div>
-          <img src="prof_momin_photo%20(1).png" alt="Abdul Momin Siddiqui" class="profile-photo">
+          <img src="profile-photo.svg?v=2" alt="Abdul Momin Siddiqui" class="profile-photo">
           <div class="profile-caption">
             <span>DATA · ML · AI</span>
             <b>BUILD / DEPLOY / ANALYZE</b>
@@ -68,7 +88,6 @@
         <div class="contact-mini"><span>⌖</span> Lucknow, Uttar Pradesh, India</div>
         <div class="contact-mini"><span>@</span> momimabdul605@gmail.com</div>
       </article>
-
       <article id="skills" class="panel skills-panel">
         <div class="panel-heading"><span>⚙</span><h2>TECHNICAL SKILLS</h2></div>
         <div class="skill-row"><b>⌘</b><span>Languages</span><div><i>Python</i><i>SQL</i><i>R</i></div></div>
